@@ -15,7 +15,6 @@ Source0:	mcal-%{version}.tar.bz2
 BuildRequires:  php-devel >= 3:5.2.0
 BuildRequires:	libmcal-devel
 Epoch:		1
-BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 This is a dynamic shared object (DSO) that adds MCAL support to PHP.
