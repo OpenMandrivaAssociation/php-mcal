@@ -7,7 +7,7 @@
 Summary:	The %{realname} module for PHP
 Name:		php-%{modname}
 Version:	0.6
-Release:	%mkrel 35
+Release:	%mkrel 36
 Group:		Development/PHP
 License:	PHP License
 URL:		http://www.php.net
