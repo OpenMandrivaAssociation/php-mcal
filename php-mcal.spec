@@ -12,6 +12,8 @@ Group:		Development/PHP
 License:	PHP License
 URL:		http://www.php.net
 Source0:	mcal-%{version}.tar.bz2
+Patch0:		mcal-0.6-deprecation_fix.diff
+Patch1:		mcal-0.6-php54x.diff
 BuildRequires:  php-devel >= 3:5.2.0
 BuildRequires:	libmcal-devel
 Epoch:		1
@@ -39,6 +41,8 @@ any specific database or local file programming.
 %prep
 
 %setup -q -n mcal-%{version}
+%patch0 -p0
+%patch1 -p0
 
 %build
 %serverbuild
