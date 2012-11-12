@@ -1,0 +1,11 @@
+--- php_mcal.c	2012-05-02 10:42:36.508712373 +0200
++++ php_mcal.c.oden	2012-05-02 10:42:55.171826536 +0200
+@@ -67,7 +67,7 @@ static cal_list_t *g_cal_list_end=NULL;
+  * {"PHPScriptFunctionName",dllFunctionName,1} 
+  */
+ 
+-function_entry mcal_functions[] = {
++zend_function_entry mcal_functions[] = {
+ 	PHP_FE(mcal_open,NULL)
+ 	PHP_FE(mcal_close,NULL)
+ 	PHP_FE(mcal_popen,NULL)
