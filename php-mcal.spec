@@ -7,7 +7,7 @@ Summary:	The %{realname} module for PHP
 Name:		php-%{modname}
 Epoch:		1
 Version:	0.6
-Release:	50
+Release:	51
 Group:		Development/PHP
 License:	PHP License
 Url:		http://www.php.net
