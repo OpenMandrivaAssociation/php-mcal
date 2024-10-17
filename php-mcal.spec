@@ -10,7 +10,7 @@ Version:	0.6
 Release:	56
 Group:		Development/PHP
 License:	PHP License
-Url:		http://www.php.net
+Url:		https://www.php.net
 Source0:	mcal-%{version}.tar.bz2
 Patch0:		mcal-0.6-deprecation_fix.diff
 Patch1:		mcal-0.6-php54x.diff
